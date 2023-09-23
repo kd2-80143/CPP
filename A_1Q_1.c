@@ -1,3 +1,9 @@
+/*
+Q1. Write a menu driven program for Date in a C. Declare a structure Date having data members day, month, year. Implement the following functions.
+void initDate(struct Date* ptrDate);
+void printDateOnConsole(struct Date* ptrDate);
+void acceptDateFromConsole(struct Date* ptrDate);
+*/
 #include <stdio.h>
 
 struct Date
