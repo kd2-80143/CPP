@@ -85,5 +85,10 @@ int main()
         t1[i]->printTime();
     }
 
+    //deallocating
+    for(int i = 0; i < n; i++)
+        delete t1[i];
+
+    delete[] t1;
  return 0;   
 }
